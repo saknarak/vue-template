@@ -1,0 +1,6 @@
+
+@media (max-width: 1025px) {
+  body {
+    @include define-breakpoint("desktop");
+  }
+}

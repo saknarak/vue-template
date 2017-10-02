@@ -1,0 +1,63 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --inline --hot --progress",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "cross-env NODE_ENV=development node src-server",
+    "prod": "cross-env NODE_ENV=production node src-server"
+  },
+  "keywords": [],
+  "author": "Somsak Sae-Lim",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^0.10.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^2.1.0",
+    "eslint-plugin-vue-libs": "^1.2.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "moment": "^2.18.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.4.4",
+    "vue-touch": "^1.1.0",
+    "vuex": "^2.4.1",
+    "vuex-router-sync": "^4.3.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-obfuscator": "^0.11.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://202.129.206.254:10080/sak/lucy-web.git"
+  },
+  "description": "starter template"
+}
