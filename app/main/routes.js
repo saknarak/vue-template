@@ -11,4 +11,9 @@ export default [
     component: resolve => require(['@/sample/app'], resolve),
     children: SampleRoutes,
   },
+  // {
+  //   path: '/members',
+  //   component: resolve => require(['@/member/app'], resolve),
+  //   children: SampleRoutes,
+  // },
 ]
